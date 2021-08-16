@@ -1,0 +1,22 @@
+@keyframes flotar-top{
+    25% {
+        -moz-transform: translateY(-9px);
+   }
+   50%{
+        -moz-transform: translateY(0);
+   }
+   75% {
+        -moz-transform: translateY(9px);
+   }
+}
+@keyframes flotar-bottom{
+    25% {
+        -moz-transform: translateY(9px);
+   }
+   50%{
+        -moz-transform: translateY(0);
+   }
+   75% {
+        -moz-transform: translateY(-9px);
+   }
+}
