@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    .footer_content{
+        display: flex;
+        background-color: $black;
+        width: inherit;
+        height: 50vh;
+        align-items: center;
+        opacity: .9;
+        .footer_header{
+            width: 40%;
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .footer_body{
+        padding: 5%;
+        display: flex;
+        column-gap: 10%;
+        background-color: $three;
+        .footer_item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $white;
+            a{
+                color: $one;
+            }
+        }
+    }
+}

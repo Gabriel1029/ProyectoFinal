@@ -1,0 +1,27 @@
+.navbar{
+    background-color: $black;
+    padding: .2%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    .nav{
+        padding: inherit;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        font-family: $text2;
+        .nav_item{
+            padding: .5%;
+            .nav_link{
+                color:$white;
+                font-size: 1.1rem;
+                text-decoration: none;
+                &:hover{
+                    color: $three;
+                    border-bottom: 1px solid $black;
+                }
+            }
+        }
+    }
+}
