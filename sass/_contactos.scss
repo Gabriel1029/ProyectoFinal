@@ -1,0 +1,69 @@
+@import 'flotar';
+
+.contactos{
+    height: 90vh;
+      width: 100%;
+      .contactos_body{
+          width: inherit;
+          height: inherit;
+          background:linear-gradient(90deg,$one,$two 50%);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          z-index: 1;
+          form{
+              display: flex;
+              flex-direction: column;
+              background-color: hsla(0,0%,100%,.7);
+              backdrop-filter: blur(10px);
+              width: 30%;
+              height: 70%;
+              padding: 3%;
+              border-radius: 1rem;
+              align-items: center;
+              justify-content: center;
+              row-gap: 3%;
+              border: 1px solid $white;
+              input,textarea{
+                background-color: hsla(0,0%,100%,.7);
+                backdrop-filter: blur(10px);
+                width: 80%;
+                border: none;
+                outline: none;
+                padding: .9%;
+                border-radius: .5rem;
+                &:focus{
+                    box-shadow: 0 0 5px 0 $two,
+                0 0 5px 0 $two;
+                }
+              }
+              input[type='submit'], input[type='reset']{
+                     border: none;
+                     background-color: hsla(170,50%,50%,.9);
+                     color: $white;
+                     border-radius: .9rem;
+              }
+          }
+          .contactos_item{
+            width: 7%;
+            height: 15%;
+            border-radius: 50%;
+            position: absolute;
+           z-index: -1;
+            &:nth-child(1){
+                 top: 13%;
+                 left: 30%;
+                 background:linear-gradient(20deg,#845EC2,#D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+                 animation:flotar-top 3s infinite;
+            }
+            &:nth-child(2){
+                top: 50%;
+                left: 62%;
+                background:linear-gradient(20deg,#845EC2,#D65DB1,#FF6F91,#FF9671,#FFC75F,#F9F871);
+                animation:flotar-bottom 3s infinite;
+           }
+        }
+    }
+}
+   
