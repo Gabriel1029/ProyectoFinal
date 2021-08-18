@@ -1,0 +1,21 @@
+@import 'colors';
+/*movil*/
+@media only screen and (max-width:320px){
+ .navbar{
+     padding: 0;
+     .nav{
+        flex-direction: column;
+        row-gap: 3%;
+        .nav_item{
+            padding: 2%;
+        }
+     }
+   }
+   .carousel{
+       position: absolute;
+       margin-top: 35%;
+   }
+   .title{
+       margin-left: 0;
+   }
+}

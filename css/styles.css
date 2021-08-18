@@ -338,3 +338,18 @@ footer {
         left: 62%;
         background: linear-gradient(20deg, #845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
         animation: flotar-bottom 3s infinite; }
+
+/*movil*/
+@media only screen and (max-width: 320px) {
+  .navbar {
+    padding: 0; }
+    .navbar .nav {
+      flex-direction: column;
+      row-gap: 3%; }
+      .navbar .nav .nav_item {
+        padding: 2%; }
+  .carousel {
+    position: absolute;
+    margin-top: 35%; }
+  .title {
+    margin-left: 0; } }
