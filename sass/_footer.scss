@@ -18,7 +18,7 @@ footer{
         }
     }
     .footer_body{
-        padding: 5%;
+        padding: 3%;
         display: flex;
         column-gap: 10%;
         background-color: $three;
@@ -30,6 +30,11 @@ footer{
             a{
                 color: $one;
             }
-        }
+            &:last-child{
+                flex-direction: row;
+                column-gap: 15%;
+                letter-spacing: .5rem;
+            }
+        }   
     }
 }
