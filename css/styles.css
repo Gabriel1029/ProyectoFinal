@@ -121,7 +121,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 1%;
-    border: 1px solid #00dcff;
+    border-right: 1px solid #00dcff;
     position: relative;
     text-align: center; }
     .inicio .inicio_body div {
@@ -219,3 +219,49 @@ footer {
       .nosotros .nosotros_text .nosotros_item p {
         width: 80%;
         text-align: justify; }
+
+.main {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5%; }
+  .main .main_item {
+    width: 20%;
+    height: 30%;
+    border: 1px solid #00dcff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: inherit;
+    transition: .25s; }
+    .main .main_item:hover {
+      border: none;
+      box-shadow: 0px 3px 3px 3px #7fedff; }
+    .main .main_item .main_header {
+      width: 40%;
+      background: linear-gradient(25deg, #006e7f, #00dcff);
+      text-align: center;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem; }
+    .main .main_item .main_body {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1%; }
+      .main .main_item .main_body p {
+        width: 80%;
+        font-size: .9rem; }
+      .main .main_item .main_body a img {
+        transform: rotate(90deg);
+        transition: .30s;
+        opacity: .5; }
+        .main .main_item .main_body a img:hover {
+          transform: rotate(0deg);
+          opacity: 1; }
