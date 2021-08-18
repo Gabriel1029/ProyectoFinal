@@ -350,6 +350,17 @@ footer {
         padding: 2%; }
   .carousel {
     position: absolute;
-    margin-top: 35%; }
+    margin-top: 60%; }
   .title {
-    margin-left: 0; } }
+    margin-top: 40%;
+    width: 30%;
+    height: 10%;
+    justify-content: center; }
+    .title .title_body {
+      width: 90%;
+      height: 90%; }
+      .title .title_body h1 {
+        font-size: .7rem; }
+  .circle1, .circle2 {
+    width: 10%;
+    height: 5%; } }
